@@ -1,0 +1,14 @@
+<<<<<<<<<< Test >>>>>>>>>>
+Timestamp: [20250313_125440]
+
+<<<<<<<<<< Options >>>>>>>>>>
+restore_iter: 300000
+pbar_len: 100
+checkpoint_save_path: exp/RFDA/QP37/ckp_300000.pt
+criterion:[
+  type: PSNR
+  unit: dB
+  ]
+
+loading model exp/RFDA/QP37/ckp_300000.pt...
+> model exp/RFDA/QP37/ckp_300000.pt loaded.

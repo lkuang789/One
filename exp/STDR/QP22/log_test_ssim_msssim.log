@@ -1,0 +1,42 @@
+<<<<<<<<<< Test >>>>>>>>>>
+Timestamp: [20241209_183042]
+
+<<<<<<<<<< Options >>>>>>>>>>
+restore_iter: 100000
+pbar_len: 100
+criterion:[
+  type: PSNR
+  unit: dB
+  ]
+checkpoint_save_path: exp/QP22/ckp_100000.pt
+
+loading model exp/QP22/ckp_100000.pt...
+> model exp/QP22/ckp_100000.pt loaded.
+
+<<<<<<<<<< Results >>>>>>>>>>
+BQMall_832x480_600.yuv: PSNR: [40.012->40.945] SSIM: [0.9645->0.9694] MS-SSIM: [0.9951->0.9960] LPIPS: [0.1742]
+BQSquare_416x240_600.yuv: PSNR: [38.339->40.003] SSIM: [0.9615->0.9715] MS-SSIM: [0.9948->0.9963] LPIPS: [0.0643]
+BQTerrace_1920x1080_600.yuv: PSNR: [38.160->38.501] SSIM: [0.9360->0.9392] MS-SSIM: [0.9910->0.9918] LPIPS: [0.1490]
+BasketballDrill_832x480_500.yuv: PSNR: [40.156->40.988] SSIM: [0.9563->0.9627] MS-SSIM: [0.9930->0.9939] LPIPS: [0.1417]
+BasketballDrive_1920x1080_500.yuv: PSNR: [39.346->39.709] SSIM: [0.9340->0.9378] MS-SSIM: [0.9902->0.9911] LPIPS: [0.3043]
+BasketballPass_416x240_500.yuv: PSNR: [40.784->41.957] SSIM: [0.9698->0.9755] MS-SSIM: [0.9949->0.9958] LPIPS: [0.0831]
+BlowingBubbles_416x240_500.yuv: PSNR: [38.017->39.498] SSIM: [0.9655->0.9733] MS-SSIM: [0.9957->0.9969] LPIPS: [0.0738]
+Cactus_1920x1080_500.yuv: PSNR: [38.236->38.816] SSIM: [0.9365->0.9417] MS-SSIM: [0.9918->0.9927] LPIPS: [0.2308]
+FourPeople_1280x720_600.yuv: PSNR: [42.371->43.234] SSIM: [0.9736->0.9768] MS-SSIM: [0.9954->0.9960] LPIPS: [0.2137]
+Johnny_1280x720_600.yuv: PSNR: [42.771->43.409] SSIM: [0.9696->0.9725] MS-SSIM: [0.9938->0.9945] LPIPS: [0.2824]
+Kimono_1920x1080_240.yuv: PSNR: [41.539->42.186] SSIM: [0.9582->0.9625] MS-SSIM: [0.9928->0.9938] LPIPS: [0.3340]
+KristenAndSara_1280x720_600.yuv: PSNR: [43.113->43.807] SSIM: [0.9733->0.9762] MS-SSIM: [0.9945->0.9953] LPIPS: [0.2729]
+ParkScene_1920x1080_240.yuv: PSNR: [40.069->40.825] SSIM: [0.9496->0.9550] MS-SSIM: [0.9909->0.9922] LPIPS: [0.2567]
+PartyScene_832x480_500.yuv: PSNR: [38.249->39.666] SSIM: [0.9670->0.9733] MS-SSIM: [0.9958->0.9968] LPIPS: [0.0839]
+PeopleOnStreet_2560x1600_150.yuv: PSNR: [41.553->42.380] SSIM: [0.9689->0.9732] MS-SSIM: [0.9922->0.9930] LPIPS: [0.1471]
+RaceHorses_416x240_300.yuv: PSNR: [39.756->40.827] SSIM: [0.9686->0.9750] MS-SSIM: [0.9944->0.9954] LPIPS: [0.0800]
+RaceHorses_832x480_300.yuv: PSNR: [39.835->40.348] SSIM: [0.9622->0.9662] MS-SSIM: [0.9930->0.9937] LPIPS: [0.1763]
+Traffic_2560x1600_150.yuv: PSNR: [41.010->41.969] SSIM: [0.9750->0.9794] MS-SSIM: [0.9955->0.9963] LPIPS: [0.0973]
+Average PSNR: [40.184] -> [41.059] (delta: 0.875)
+Average SSIM: [0.9606] -> [0.9656] (delta: 0.0051)
+Average MS-SSIM: [0.9936] -> [0.9945] (delta: 0.0009)
+Average LPIPS: [0.1758]
+TOTAL TIME: [0.3] h
+
+<<<<<<<<<< Goodbye >>>>>>>>>>
+Timestamp: [20241209_185122]

@@ -1,0 +1,42 @@
+<<<<<<<<<< Test >>>>>>>>>>
+Timestamp: [20241203_125125]
+
+<<<<<<<<<< Options >>>>>>>>>>
+restore_iter: 300000
+pbar_len: 100
+criterion:[
+  type: PSNR
+  unit: dB
+  ]
+enable_ssim: True
+checkpoint_save_path: exp/QP37/ckp_300000.pt
+
+loading model exp/QP37/ckp_300000.pt...
+> model exp/QP37/ckp_300000.pt loaded.
+
+<<<<<<<<<< Results >>>>>>>>>>
+BQMall_832x480_600.yuv: PSNR: [31.305->32.475] SSIM: [0.8682->0.8893] MS-SSIM: [0.9645->0.9716]
+BQSquare_416x240_600.yuv: PSNR: [28.263->29.462] SSIM: [0.8278->0.8438] MS-SSIM: [0.9646->0.9678]
+BQTerrace_1920x1080_600.yuv: PSNR: [30.828->31.481] SSIM: [0.8289->0.8418] MS-SSIM: [0.9628->0.9664]
+BasketballDrill_832x480_500.yuv: PSNR: [31.587->32.544] SSIM: [0.8304->0.8488] MS-SSIM: [0.9405->0.9482]
+BasketballDrive_1920x1080_500.yuv: PSNR: [33.091->34.011] SSIM: [0.8563->0.8704] MS-SSIM: [0.9547->0.9608]
+BasketballPass_416x240_500.yuv: PSNR: [30.459->31.705] SSIM: [0.8220->0.8474] MS-SSIM: [0.9411->0.9511]
+BlowingBubbles_416x240_500.yuv: PSNR: [27.793->28.626] SSIM: [0.7685->0.7960] MS-SSIM: [0.9489->0.9572]
+Cactus_1920x1080_500.yuv: PSNR: [30.949->31.952] SSIM: [0.8187->0.8399] MS-SSIM: [0.9479->0.9586]
+FourPeople_1280x720_600.yuv: PSNR: [34.586->35.675] SSIM: [0.9251->0.9383] MS-SSIM: [0.9779->0.9822]
+Johnny_1280x720_600.yuv: PSNR: [36.372->37.178] SSIM: [0.9247->0.9347] MS-SSIM: [0.9778->0.9814]
+Kimono_1920x1080_240.yuv: PSNR: [33.950->34.968] SSIM: [0.8811->0.8996] MS-SSIM: [0.9486->0.9590]
+KristenAndSara_1280x720_600.yuv: PSNR: [35.885->36.959] SSIM: [0.9370->0.9474] MS-SSIM: [0.9771->0.9815]
+ParkScene_1920x1080_240.yuv: PSNR: [32.315->33.085] SSIM: [0.8393->0.8554] MS-SSIM: [0.9426->0.9507]
+PartyScene_832x480_500.yuv: PSNR: [27.790->28.547] SSIM: [0.7958->0.8191] MS-SSIM: [0.9506->0.9573]
+PeopleOnStreet_2560x1600_150.yuv: PSNR: [32.363->34.081] SSIM: [0.8938->0.9180] MS-SSIM: [0.9571->0.9677]
+RaceHorses_416x240_300.yuv: PSNR: [29.312->30.274] SSIM: [0.7725->0.7966] MS-SSIM: [0.9245->0.9360]
+RaceHorses_832x480_300.yuv: PSNR: [30.075->30.660] SSIM: [0.8210->0.8362] MS-SSIM: [0.9346->0.9424]
+Traffic_2560x1600_150.yuv: PSNR: [32.669->33.370] SSIM: [0.8819->0.8951] MS-SSIM: [0.9635->0.9672]
+Average PSNR: [31.644] -> [32.614] (delta: 0.970)
+Average SSIM: [0.8496] -> [0.8677] (delta: 0.0180)
+Average MS-SSIM: [0.9544] -> [0.9615] (delta: 0.0071)
+TOTAL TIME: [0.2] h
+
+<<<<<<<<<< Goodbye >>>>>>>>>>
+Timestamp: [20241203_130052]
